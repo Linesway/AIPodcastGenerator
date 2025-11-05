@@ -1,82 +1,50 @@
 [
   {
     "speaker": "Jamie",
-    "text": "Hey there, podcast pals! Jamie here ready to dive into some juicy headlines. Who's excited for some tech and world news today?"
+    "text": "Welcome back to the podcast, folks! We've got a wild ride of headlines today, starting with 'The Nut Job 3' confirmed by Korea's RedRover."
   },
   {
     "speaker": "Carol",
-    "text": "Hold your horses, Jamie. Let's kick things off with Millie Bobby Brown slamming the press. Seems like she's saying, 'Stranger Things have happened.'"
+    "text": "Wait, 'The Nut Job 3'? Sounds like a nutty sequel. Will this one crack us up or leave us shell-shocked?"
   },
   {
     "speaker": "Jamie",
-    "text": "Carol with the zinger! But hey, can we blame Millie for being fed up? I mean, I respect journalism too, but let the girl live, right?"
+    "text": "Haha, good one, Carol! Next up, let's dive into Shin Godzilla unleashed with Super7's newest Toho ULTIMATES!"
   },
   {
     "speaker": "Jamie",
-    "text": "Next up, Batman fans! Who's excited for some Dark Knight drama? Will Robert Pattinson's cape fit the next actor breaking silence on joining the DC Universe?"
+    "text": "This Godzilla reimagining sounds like a real monster mash-up of horror and government failure. Who knew giant monsters had such political aspirations?"
   },
   {
     "speaker": "Carol",
-    "text": "Hmm, interesting twist there. Could this new Batman be the hero we need, or will Gotham City need a reboot? Stay tuned, folks."
+    "text": "I bet Godzilla's got a pretty intense campaign platform. Maybe we should consider him for the next election. 'Godzilla for President!'"
   },
   {
     "speaker": "Jamie",
-    "text": "Now, let's talk tech deals! Apple fans, rejoice! The Apple Watch SE 3 is on sale for a steal at under $200. Time to grab yours and join the smartwatch squad!"
+    "text": "Now that's a candidate who can really shake things up! Switching gears, ICE's newest illegal trucker crackdown is making headlines. Buckle up, folks!"
+  },
+  {
+    "speaker": "Jamie",
+    "text": "Seems like ICE's operation was a real roadblock for those illegal migrant truck drivers. Who knew the highway was such a hotspot for international drama?"
   },
   {
     "speaker": "Carol",
-    "text": "A smartwatch steal indeed, Jamie. But will this new watch be as life-changing as finding a lost iPhone in the couch cushions? The tech world wonders."
+    "text": "I can already see the script for 'Fast & Furious: Immigration Drift' in the making. Vin Diesel's got a new mission!"
   },
   {
     "speaker": "Jamie",
-    "text": "And speaking of world wonders, let's not forget the upcoming World Cup 2026 jerseys reveal. Adidas bringing the heat with high-tech kits! Which design will score big on the field?"
+    "text": "A high-octane crossover we never knew we needed! And speaking of crossovers, how about that potential Paramount-WBD merger redefining the streaming wars?"
   },
   {
     "speaker": "Carol",
-    "text": "Adidas sure knows how to kit it out for the big leagues. Can't wait to see the US team rocking their new threads in the next summer's tournament. Go team USA!"
+    "text": "Paramount and WBD joining forces? Sounds like a streaming showdown! Will HBO Max and Paramount+ team up or face off in the ultimate battle for our binge-watching attention?"
   },
   {
     "speaker": "Jamie",
-    "text": "That's all the time we have for today's headlines, folks. Thanks for tuning in to our tech and world news roundup. Catch you next time for more exciting updates! Stay curious."
+    "text": "The stakes are high in the streaming arena! Last but not least, Google's Pixel Buds Pro 2 are down to $169. Black Friday deal alert, tech enthusiasts!"
   },
   {
     "speaker": "Jamie",
-    "text": "Hey there, podcast pals! Ready to jump back into the news whirlwind? Let's keep the energy high and the jokes flowing!"
-  },
-  {
-    "speaker": "Carol",
-    "text": "Hold on to your mic, Jamie. Millie Bobby Brown isn't backing down. She's like the 'Eleven' of shutting down haters. Watch out, paparazzi!"
-  },
-  {
-    "speaker": "Jamie",
-    "text": "Millie's got that telekinetic power to shut down negativity, Carol! It's all about spreading love and waffles, not hassles. Can't wait to see her next move."
-  },
-  {
-    "speaker": "Jamie",
-    "text": "Gotham City alert! Batman fans, buckle up for some DC Universe twists. Will the next Batman actor have the gadgets and the growl to match Pattinson's style?"
-  },
-  {
-    "speaker": "Carol",
-    "text": "Holy headline, Batman! The Dark Knight is no stranger to drama. Let's hope the new cape crusader brings more than just a bat signal to the party."
-  },
-  {
-    "speaker": "Jamie",
-    "text": "Tech time, folks! Apple Watch SE 3 making waves with its $200 steal deal. Time to gear up and tech out with Apple's latest wrist wizardry!"
-  },
-  {
-    "speaker": "Carol",
-    "text": "Jamie, will this new watch be the talk of the town or just another timepiece lost in the digital shuffle? The smartwatch saga continues!"
-  },
-  {
-    "speaker": "Jamie",
-    "text": "Score one for the sports fans! World Cup 2026 jerseys hitting the field with Adidas flair. Which team's threads will be the MVP of style?"
-  },
-  {
-    "speaker": "Carol",
-    "text": "Adidas bringing the fashion thunder, Jamie. Can't wait to see the US team rocking their stripes on the global stage. It's game time, USA!"
-  },
-  {
-    "speaker": "Jamie",
-    "text": "That's a wrap for today's tech and world news roundup! Thanks for tuning in, podcast pals. Stay curious, stay awesome, and catch you next time for more headline adventures! Until then, keep those headphones on and your laughter loud!"
+    "text": "Don't wait till Black Friday to snag those noise-canceling wireless earbuds! Get 'em now and tune into the world with crystal-clear sound. Until next time, stay curious and tech-savvy, folks! See you on the next episode."
   }
 ]

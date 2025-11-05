@@ -10,6 +10,7 @@ from src.news import fetch_news
 from src.generator import generate_turns_from_news
 from src.tts import synthesize_turns
 from src.audio import (
+    apply_intro_outro,
     audiosegment_from_bytes,
     concatenate_audio,
     normalize_loudness,
@@ -128,8 +129,8 @@ def main():
     settings["topics"] = topics
 
     # Decide on total_turns: optionally derive from target_length_sec
-    # Assume ~20 words per turn, ~150 WPM speaking rate
-    wpm = 150
+    # Assume ~20 words per turn, ~120 WPM average speaking rate including pauses
+    wpm = 120
     words_total = (wpm / 60.0) * target_length_sec
     approx_turns = max(int(words_total / 20), 5)  # ensure at least 5 turns
 
@@ -165,6 +166,9 @@ def main():
         segs.append(seg)
     final = concatenate_audio(segs, crossfade_ms=0)
     final = normalize_loudness(final, target_dbfs=-16.0)
+
+    final = apply_intro_outro(final, settings)
+
     # apply a global volume adjustment if requested
     if global_volume_db != 0.0:
         final = final + global_volume_db

@@ -2,7 +2,10 @@
   "settings": {
     "profanity_filter": true,
     "volume_db": -5.0,
-    "pause_ms": 1000
+    "pause_ms": 1000,
+    "intro": "intro.mp3",
+    "outro": "outro.mp3",
+    "music_volume_db": -6.0
   },
   "Jamie": {
     "description": "Energetic, upbeat host — quick jokes, enthusiastic transitions, drives the conversation with high energy.",
