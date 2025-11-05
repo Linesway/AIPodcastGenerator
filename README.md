@@ -2,6 +2,17 @@
 
 A small pipeline that: fetches news, asks ChatGPT to write a short two‑host script, synthesizes each turn with Cartesia TTS, and assembles an episode MP3.
 
+Features:
+- Intro/Outro Music if provided
+- Filters for profanity/topics/regions etc.
+- Target podcast length
+- Pause durations between speakers
+- Ability to have more than 2 hosts
+- Personas
+
+Example:
+[example.mp3](https://github.com/user-attachments/files/23374651/example.mp3)
+
 # Requirements
 - Python 3.8+
 - ffmpeg installed and on PATH (see below)
