@@ -44,31 +44,13 @@ def main():
     p = argparse.ArgumentParser(description="Produce a 2-host newscast audio file.")
     p.add_argument("--topics", help="Comma-separated topics/queries (e.g. 'tech,world')")  # moved out of personas
     p.add_argument("--regions", help="Optional comma-separated regions (e.g. 'US,Europe')")
-    p.add_argument("--personas", default="project/personas.json", help="Path to personas.json")
+    p.add_argument("--personas", default="personas.json", help="Path to personas.json")
     p.add_argument("--voice-map", help="Optional path to JSON mapping speaker->cartesia_voice_id")
     p.add_argument("--output", default="episode.mp3")
     p.add_argument("--format", default="mp3", help="Audio format returned by TTS (mp3/wav)")
     p.add_argument("--length", type=int, default=90, help="Target length in seconds for script")
     p.add_argument("--minutes", type=float, help="Target length in minutes (overrides --length)")
     args = p.parse_args()
-
-    # topics: prefer --topics CLI; fallback to personas.settings.topics for backward compatibility
-    topics = []
-    if args.topics:
-        topics = [t.strip() for t in args.topics.split(",") if t.strip()]
-    else:
-        # keep backward compatibility if personas.json still contains settings.topics
-        st = settings.get("topics") if isinstance(settings, dict) else None
-        if st and isinstance(st, (list, tuple)):
-            topics = [str(t).strip() for t in st if str(t).strip()]
-    if not topics:
-        raise SystemExit("No topics provided. Pass --topics (comma-separated) or add 'settings.topics' temporarily.")
-    
-    # regions: CLI overrides; if provided, add into settings passed to generator
-    if args.regions:
-        regions = [r.strip() for r in args.regions.split(",") if r.strip()]
-        if regions:
-            settings["regions"] = regions
 
     # load personas file — require format:
     # "Name": {"description": "...", "voice": "cartesia-voice-id"}
@@ -78,6 +60,19 @@ def main():
     settings = {}
     if isinstance(raw_personas, dict) and "settings" in raw_personas:
         settings = raw_personas.pop("settings") or {}
+
+    # topics: prefer --topics CLI; fallback to personas.settings.topics for backward compatibility
+    topics = []
+    if args.topics:
+        topics = [t.strip() for t in args.topics.split(",") if t.strip()]
+    if not topics:
+        raise SystemExit("No topics provided. Pass --topics (comma-separated).")
+    
+    # regions: CLI overrides; if provided, add into settings passed to generator
+    if args.regions:
+        settings["regions"] = [r.strip() for r in args.regions.split(",") if r.strip()]
+    else:
+        settings.pop("regions", None)  # ensure regions is **not** inherited accidentally
 
     personas = {}
     voice_map = {}
@@ -134,7 +129,7 @@ def main():
 
     # Decide on total_turns: optionally derive from target_length_sec
     # Assume ~20 words per turn, ~150 WPM speaking rate
-    wpm = settings.get("speech_rate_wpm", 150)
+    wpm = 150
     words_total = (wpm / 60.0) * target_length_sec
     approx_turns = max(int(words_total / 20), 5)  # ensure at least 5 turns
 

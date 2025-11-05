@@ -2,8 +2,7 @@
   "settings": {
     "profanity_filter": true,
     "volume_db": -5.0,
-    "pause_ms": 1000,
-    "speech_rate_wpm": 150
+    "pause_ms": 1000
   },
   "Jamie": {
     "description": "Energetic, upbeat host — quick jokes, enthusiastic transitions, drives the conversation with high energy.",

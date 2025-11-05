@@ -1,80 +1,54 @@
 [
   {
     "source": {
-      "id": "abc-news-au",
-      "name": "ABC News (AU)"
+      "id": null,
+      "name": "Variety"
     },
-    "author": "Carrington Clarke",
-    "title": "'I know you're watching': Mamdani's victory message to Trump",
-    "description": "After using a Trump-style tactic in his campaign, Zohran Mamdani probably now has the US president's begrudging respect — as well as his attention.",
-    "url": "https://www.abc.net.au/news/2025-11-05/new-york-mayor-zohran-mamdani-donald-trump-and-democrats/105973460",
-    "urlToImage": "https://live-production.wcms.abc-cdn.net.au/cb78a7fd296225fdbdb9e457feb72b65?impolicy=wcms_watermark_news&cropH=2327&cropW=4136&xPos=0&yPos=8&width=862&height=485&imformat=generic",
-    "publishedAt": "2025-11-05T06:04:26Z",
-    "content": "The official Democratic Socialists of America watch party hit capacity at the incongruous choice of a Bavarian beer hall well before polls had even closed.\r\nThe venue was packed with volunteers and M… [+5186 chars]"
-  },
-  {
-    "source": {
-      "id": "the-irish-times",
-      "name": "The Irish Times"
-    },
-    "author": "Trish Murphy",
-    "title": "‘My son (9) loves football, but I am horrified at what goes on at matches’",
-    "description": "Tell Me About It: I am tempted to pull him out of this sport as it normalises such awful behaviour",
-    "url": "https://www.irishtimes.com/health/your-wellness/2025/11/05/my-son-9-loves-football-but-i-am-horrified-at-what-goes-on-at-matches/",
-    "urlToImage": "https://www.irishtimes.com/resizer/v2/X77MDY57H5HFRK24H34MYZX4V4.jpg?smart=true&auth=66563641b7229f3f6370a63d163e26b7ee24921c60fc257da2b6420460500703&width=1200&height=630",
-    "publishedAt": "2025-11-05T06:01:00Z",
-    "content": "Question\r\nI am a mother of a nine-year-old son and he loves football. He began playing for a local team recently and, initially, I was delighted the coach is a lovely man and the other volunteers are… [+4573 chars]"
+    "author": "Zack Sharf",
+    "title": "Millie Bobby Brown Demands the Press Stop Slamming Her Body in Article Headlines: ‘I Respect Journalism’ but ‘Get Off My F—ing Case. I Am 21’",
+    "description": "Millie Bobby Brown recently told British Vogue that her biggest issue with the press is the need for journalists to outright slam celebrities in article headlines. The “Stranger Things” star went viral in March when she posted an Instagram video that called o…",
+    "url": "https://variety.com/2025/tv/news/millie-bobby-brown-press-stop-slamming-body-headlines-1236570212/",
+    "urlToImage": "https://variety.com/wp-content/uploads/2025/11/P10YOQC.jpg?w=1000&h=563&crop=1",
+    "publishedAt": "2025-11-05T15:38:00Z",
+    "content": "Millie Bobby Brown recently told British Vogue that her biggest issue with the press is the need for journalists to outright slam celebrities in article headlines. The “Stranger Things” star went vir… [+3676 chars]"
   },
   {
     "source": {
       "id": null,
-      "name": "Dezeen"
+      "name": "ComicBook.com"
     },
-    "author": "Saudatu Bah",
-    "title": "Amora designs discreet and portable menstrual cup rinsing case",
-    "description": "Menstrual care brand Amora has designed a discreet, portable case named Halo that lets menstrual cup users rinse their cups easily at home or in public. Halo is the first product created by Amora, a menstrual care brand founded by UK-based industrial designer…",
-    "url": "https://www.dezeen.com/2025/11/05/amora-portable-menstrual-cup-rinsing-case/",
-    "urlToImage": "https://static.dezeen.com/uploads/2025/10/halo-amora-period-product-united-kingdom-design_dezeen_2364_hero.jpg",
-    "publishedAt": "2025-11-05T06:00:28Z",
-    "content": "Menstrual care brand Amora has designed a discreet, portable case named Halo that lets menstrual cup users rinse their cups easily at home or in public.\r\nHalo is the first product created by Amora, a… [+2483 chars]"
-  },
-  {
-    "source": {
-      "id": "the-irish-times",
-      "name": "The Irish Times"
-    },
-    "author": "Gerry Thornley",
-    "title": "Ireland’s attack not far from firing despite All Blacks setback, says Sexton",
-    "description": "Assistant coach adamant team’s work on the training ground will soon come to fruition",
-    "url": "https://www.irishtimes.com/sport/rugby/2025/11/05/irelands-attack-not-far-from-firing-despite-all-blacks-setback-says-sexton/",
-    "urlToImage": "https://www.irishtimes.com/resizer/v2/DY3DIJ45ZJW5V37IA5I6AAT2VY.jpg?smart=true&auth=9c571dad1a87b6ec88470994f442dc87c39f707151812b5e3b3710e9999ee877&width=1200&height=630",
-    "publishedAt": "2025-11-05T06:00:01Z",
-    "content": "Back in the grim Covid-affected echo chambers of 2021, Johnny Sexton adamantly maintained that Irelands attack would click despite opening Six Nations defeats against Wales and France.\r\nThe doubters … [+5074 chars]"
+    "author": "Chris Agar",
+    "title": "Major Batman Fancast Actor Breaks Silence on Joining James Gunn’s DCU After 1 Year of Rumors",
+    "description": "Image courtesy of DC Comics\nAs Robert Pattinson continues to play Batman in Matt Reeves’ Batman Epic Crime Saga franchise, DC Studios is in the process of developing a separate take on the Dark Knight that will be a part of the DC Universe. All that’s been co…",
+    "url": "http://comicbook.com/movies/news/major-batman-fancast-actor-breaks-silence-on-joining-james-gunns-dcu-after-1-year-of-rumors/",
+    "urlToImage": "https://comicbook.com/wp-content/uploads/sites/4/2025/10/Batman-New-52.jpg?resize=2000,1125",
+    "publishedAt": "2025-11-05T15:37:47Z",
+    "content": "As Robert Pattinson continues to play Batman in Matt Reeves’ Batman Epic Crime Saga franchise, DC Studios is in the process of developing a separate take on the Dark Knight that will be a part of the… [+3733 chars]"
   },
   {
     "source": {
       "id": null,
-      "name": "Www.gov.uk"
+      "name": "Macworld"
     },
-    "author": "Department for Education",
-    "title": "Independent report: Curriculum and Assessment Review Final Report",
-    "description": "The conclusions and recommendations of the independent review of the curriculum, assessment and qualifications system in England.",
-    "url": "https://www.gov.uk/government/publications/curriculum-and-assessment-review-final-report",
-    "urlToImage": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png",
-    "publishedAt": "2025-11-05T06:00:01Z",
-    "content": "Background\r\nIn July 2024, the government commissioned Professor Becky Francis CBE to convene and chair a panel of experts to conduct the Curriculum and Assessment Review.\r\nThe government has consider… [+1599 chars]"
+    "author": "Gabriela Vatu",
+    "title": "The brand-new Apple Watch SE 3 is already a steal at under $200",
+    "description": "Macworld\n\n\n\r\n\n\n\n\nIf yesterday’s $100 discount on the Apple Watch Ultra 3 was still a little more than you wanted to spend on a smartwatch, today’s deal might be for you. The brand new Apple Watch SE 3 is on sale for $200 right now, a savings of $50 and the fi…",
+    "url": "https://www.macworld.com/article/2962936/the-brand-new-apple-watch-se-3-is-already-a-steal-at-under-200.html",
+    "urlToImage": "https://www.macworld.com/wp-content/uploads/2025/11/apple_watch_se_3_4.jpg?quality=50&strip=all&w=1024",
+    "publishedAt": "2025-11-05T15:36:53Z",
+    "content": "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nIf yesterday’s $100 … [+1609 chars]"
   },
   {
     "source": {
-      "id": "the-irish-times",
-      "name": "The Irish Times"
+      "id": null,
+      "name": "CBS Sports"
     },
-    "author": "Patsy McGarry",
-    "title": "‘I see mistakes celebrating Mass in Ireland’: The new parishioners filling Dublin pews",
-    "description": "The ethnic diversity of Mass-goers and the clergy is growing",
-    "url": "https://www.irishtimes.com/ireland/2025/11/05/i-see-mistakes-celebrating-mass-in-ireland-the-new-parishioners-filling-dublin-pews/",
-    "urlToImage": "https://www.irishtimes.com/resizer/v2/DIIWUFBEFZBNDE472ZO2IHSPWQ.JPG?smart=true&auth=aed87e2120004f4d4996436008430433d62c6be8c2c779b88293c0927894256b&width=1200&height=630",
-    "publishedAt": "2025-11-05T06:00:01Z",
-    "content": "Alice Quinza, a student from the Democratic Republic of the Congo, had just attended Sunday evening Mass at the Pro Cathedral in Dublin city centre. She felt the Mass carried not the same energyas in… [+5245 chars]"
+    "author": "Pardeep Cattry",
+    "title": "World Cup 2026 jerseys: Adidas unveils new high-tech kits for 22 nations ahead of next summer's tournament",
+    "description": "Adidas unveiled 22 home jerseys on Wednesday, including designs for host nation Mexico and reigning world champions Argentina",
+    "url": "https://www.cbssports.com/soccer/news/fifa-world-cup-2026-jerseys-adidas-kits-22-nations-summers-tournament/",
+    "urlToImage": "https://sportshub.cbsistatic.com/i/r/2025/11/05/20dffd14-7fa6-4970-ab33-8e13fd1edd34/thumbnail/1200x675/432c3d4a3da012c96e91fb4b09122c6e/untitled-design-2025-11-05t162435-639.png",
+    "publishedAt": "2025-11-05T15:36:48Z",
+    "content": "Adidas has embraced the spirit of tradition with its latest kit release, unveiling 22 home kits on Wednesday that the brand designed with the 2026 World Cup in mind.\r\nThe drop includes the home kits … [+3990 chars]"
   }
 ]

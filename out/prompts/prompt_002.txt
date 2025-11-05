@@ -24,7 +24,48 @@ Emphasize topics: tech, world
 Prefer regional angle(s): US
 Profanity: avoid profanity; family-friendly language.
 Previous turns:
-[]
+[
+  {
+    "speaker": "Jamie",
+    "text": "Hey there, podcast pals! Jamie here ready to dive into some juicy headlines. Who's excited for some tech and world news today?"
+  },
+  {
+    "speaker": "Carol",
+    "text": "Hold your horses, Jamie. Let's kick things off with Millie Bobby Brown slamming the press. Seems like she's saying, 'Stranger Things have happened.'"
+  },
+  {
+    "speaker": "Jamie",
+    "text": "Carol with the zinger! But hey, can we blame Millie for being fed up? I mean, I respect journalism too, but let the girl live, right?"
+  },
+  {
+    "speaker": "Jamie",
+    "text": "Next up, Batman fans! Who's excited for some Dark Knight drama? Will Robert Pattinson's cape fit the next actor breaking silence on joining the DC Universe?"
+  },
+  {
+    "speaker": "Carol",
+    "text": "Hmm, interesting twist there. Could this new Batman be the hero we need, or will Gotham City need a reboot? Stay tuned, folks."
+  },
+  {
+    "speaker": "Jamie",
+    "text": "Now, let's talk tech deals! Apple fans, rejoice! The Apple Watch SE 3 is on sale for a steal at under $200. Time to grab yours and join the smartwatch squad!"
+  },
+  {
+    "speaker": "Carol",
+    "text": "A smartwatch steal indeed, Jamie. But will this new watch be as life-changing as finding a lost iPhone in the couch cushions? The tech world wonders."
+  },
+  {
+    "speaker": "Jamie",
+    "text": "And speaking of world wonders, let's not forget the upcoming World Cup 2026 jerseys reveal. Adidas bringing the heat with high-tech kits! Which design will score big on the field?"
+  },
+  {
+    "speaker": "Carol",
+    "text": "Adidas sure knows how to kit it out for the big leagues. Can't wait to see the US team rocking their new threads in the next summer's tournament. Go team USA!"
+  },
+  {
+    "speaker": "Jamie",
+    "text": "That's all the time we have for today's headlines, folks. Thanks for tuning in to our tech and world news roundup. Catch you next time for more exciting updates! Stay curious."
+  }
+]
 
 Requirements:
 - Output ONLY valid JSON: an array of objects with keys 'speaker' and 'text'.

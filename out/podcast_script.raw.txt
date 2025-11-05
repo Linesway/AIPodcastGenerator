@@ -1,54 +1,82 @@
 [
   {
     "speaker": "Jamie",
-    "text": "Hey there, listeners! Ready for some spicy news to kickstart your day?"
+    "text": "Hey there, podcast pals! Jamie here ready to dive into some juicy headlines. Who's excited for some tech and world news today?"
   },
   {
     "speaker": "Carol",
-    "text": "Spicy news? You sound like a wannabe chef, Jamie. Let's dive into those headlines already."
+    "text": "Hold your horses, Jamie. Let's kick things off with Millie Bobby Brown slamming the press. Seems like she's saying, 'Stranger Things have happened.'"
   },
   {
     "speaker": "Jamie",
-    "text": "Let's jump right in! First up, Mamdani's victory message to Trump. I know you're watching, Mr. President!"
+    "text": "Carol with the zinger! But hey, can we blame Millie for being fed up? I mean, I respect journalism too, but let the girl live, right?"
+  },
+  {
+    "speaker": "Jamie",
+    "text": "Next up, Batman fans! Who's excited for some Dark Knight drama? Will Robert Pattinson's cape fit the next actor breaking silence on joining the DC Universe?"
   },
   {
     "speaker": "Carol",
-    "text": "Ah, the Trump-style tactic making waves. Wonder if he'll reply with a tweet or a TikTok dance video."
+    "text": "Hmm, interesting twist there. Could this new Batman be the hero we need, or will Gotham City need a reboot? Stay tuned, folks."
   },
   {
     "speaker": "Jamie",
-    "text": "Haha, a TikTok dance-off between politicians? Now that would be a sight! Next headline: 'My son loves football, but Mom's horrified'."
+    "text": "Now, let's talk tech deals! Apple fans, rejoice! The Apple Watch SE 3 is on sale for a steal at under $200. Time to grab yours and join the smartwatch squad!"
   },
   {
     "speaker": "Carol",
-    "text": "Football matches can be rowdy. But hey, at least it's not a full-contact chess tournament, right?"
+    "text": "A smartwatch steal indeed, Jamie. But will this new watch be as life-changing as finding a lost iPhone in the couch cushions? The tech world wonders."
   },
   {
     "speaker": "Jamie",
-    "text": "True, Carol, true. Let's move to a tech update: Amora's discreet menstrual cup rinsing case. A game-changer for sure!"
+    "text": "And speaking of world wonders, let's not forget the upcoming World Cup 2026 jerseys reveal. Adidas bringing the heat with high-tech kits! Which design will score big on the field?"
   },
   {
     "speaker": "Carol",
-    "text": "Discreet and portable, just like my emergency snack stash. Tech evolution at its finest."
+    "text": "Adidas sure knows how to kit it out for the big leagues. Can't wait to see the US team rocking their new threads in the next summer's tournament. Go team USA!"
   },
   {
     "speaker": "Jamie",
-    "text": "Speaking of evolution, Ireland's attack not far from firing despite All Blacks setback. Sexton remains optimistic!"
+    "text": "That's all the time we have for today's headlines, folks. Thanks for tuning in to our tech and world news roundup. Catch you next time for more exciting updates! Stay curious."
+  },
+  {
+    "speaker": "Jamie",
+    "text": "Hey there, podcast pals! Ready to jump back into the news whirlwind? Let's keep the energy high and the jokes flowing!"
   },
   {
     "speaker": "Carol",
-    "text": "Optimism in sports, a rare sight. Maybe they'll recruit some rugby-playing leprechauns for good luck."
+    "text": "Hold on to your mic, Jamie. Millie Bobby Brown isn't backing down. She's like the 'Eleven' of shutting down haters. Watch out, paparazzi!"
   },
   {
     "speaker": "Jamie",
-    "text": "Now that's a team I'd love to watch! Let's transition to a world topic: the new parishioners filling Dublin pews."
+    "text": "Millie's got that telekinetic power to shut down negativity, Carol! It's all about spreading love and waffles, not hassles. Can't wait to see her next move."
+  },
+  {
+    "speaker": "Jamie",
+    "text": "Gotham City alert! Batman fans, buckle up for some DC Universe twists. Will the next Batman actor have the gadgets and the growl to match Pattinson's style?"
   },
   {
     "speaker": "Carol",
-    "text": "Diverse congregations add a colorful touch to the pews. Maybe they'll start a choir with a global playlist."
+    "text": "Holy headline, Batman! The Dark Knight is no stranger to drama. Let's hope the new cape crusader brings more than just a bat signal to the party."
   },
   {
     "speaker": "Jamie",
-    "text": "What a harmonious image! Thanks for tuning in, folks. Stay curious, stay awesome. Catch you next time!"
+    "text": "Tech time, folks! Apple Watch SE 3 making waves with its $200 steal deal. Time to gear up and tech out with Apple's latest wrist wizardry!"
+  },
+  {
+    "speaker": "Carol",
+    "text": "Jamie, will this new watch be the talk of the town or just another timepiece lost in the digital shuffle? The smartwatch saga continues!"
+  },
+  {
+    "speaker": "Jamie",
+    "text": "Score one for the sports fans! World Cup 2026 jerseys hitting the field with Adidas flair. Which team's threads will be the MVP of style?"
+  },
+  {
+    "speaker": "Carol",
+    "text": "Adidas bringing the fashion thunder, Jamie. Can't wait to see the US team rocking their stripes on the global stage. It's game time, USA!"
+  },
+  {
+    "speaker": "Jamie",
+    "text": "That's a wrap for today's tech and world news roundup! Thanks for tuning in, podcast pals. Stay curious, stay awesome, and catch you next time for more headline adventures! Until then, keep those headphones on and your laughter loud!"
   }
 ]
