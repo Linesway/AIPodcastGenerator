@@ -16,7 +16,7 @@ winget install --id=Gyan.FFmpeg -e
 
 2. Modify the personas file to adjust voices, personalities, filters, names, etc.
 - `./personas.json` must be an object mapping persona name -> object with `description` and `voice` keys.
-- Intro/Outro music is optional and can be defined in `personas.json`
+- Intro/Outro music is optional and can be defined in `./personas.json`
 
 # Running the app (from repository root)
 
@@ -26,7 +26,7 @@ python main.py --personas personas.json --minutes 7 --topics tech,world
 ```
 
 Example 2:
-```
+```powershell
 python main.py --personas personas.json --topics "tech,world" --regions "US" --minutes 2 --output "news-briefing.mp3"  --format mp3
   ```
 
