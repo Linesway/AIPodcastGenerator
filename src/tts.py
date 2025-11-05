@@ -4,6 +4,7 @@ from typing import List, Dict, Tuple
 from cartesia import AsyncCartesia
 import io
 from pydub import AudioSegment
+from tqdm import tqdm  # add at the top
 
 CARTESIA_API_KEY_ENV = "CARTESIA_API_KEY"
 CARTESIA_BASE = os.environ.get("CARTESIA_BASE", "https://api.cartesia.ai")  # override if needed
@@ -75,7 +76,8 @@ def synthesize_turns(turns: List[Dict], voice_map: Dict[str, str], fmt: str = DE
                      persona_volume: Dict[str, float] = None,
                      persona_pause: Dict[str, int] = None,
                      global_volume_db: float = 0.0,
-                     global_pause_ms: int = 120) -> List[Tuple[Dict, bytes]]:
+                     global_pause_ms: int = 120,
+                     show_progress: bool = True) -> List[Tuple[Dict, bytes]]:
     """
     Synthesize each turn to bytes and apply optional per-person or global
     volume (dB) and trailing pause (ms). Returns list of (turn, audio_bytes).
@@ -85,7 +87,10 @@ def synthesize_turns(turns: List[Dict], voice_map: Dict[str, str], fmt: str = DE
     persona_pause = persona_pause or {}
 
     results: List[Tuple[Dict, bytes]] = []
-    for t in turns:
+
+    iterator = tqdm(turns, desc="Synthesizing TTS", unit="turn") if show_progress else turns
+
+    for t in iterator:
         speaker = t.get("speaker")
         text = t.get("text", "")
         if speaker not in voice_map:

@@ -5,19 +5,13 @@ Jamie: Energetic, upbeat host — quick jokes, enthusiastic transitions, drives 
 Carol: Dry-witted co-host — concise, skeptical, asks sharp follow-ups and teases Alex with sardonic humor.
 
 Headlines to cover:
-- 1. Millie Bobby Brown Demands the Press Stop Slamming Her Body in Article Headlines: ‘I Respect Journalism’ but ‘Get Off My F—ing Case. I Am 21’ (Variety) — Millie Bobby Brown recently told British Vogue that her biggest issue with the press is the need for journalists to outright slam celebrities in article headlines. The “Stranger Things” star went viral in March when she posted an Instagram video that called o…
-- 2. Major Batman Fancast Actor Breaks Silence on Joining James Gunn’s DCU After 1 Year of Rumors (ComicBook.com) — Image courtesy of DC Comics
-As Robert Pattinson continues to play Batman in Matt Reeves’ Batman Epic Crime Saga franchise, DC Studios is in the process of developing a separate take on the Dark Knight that will be a part of the DC Universe. All that’s been co…
-- 3. The brand-new Apple Watch SE 3 is already a steal at under $200 (Macworld) — Macworld
-
-
-
-
-
-
-
-If yesterday’s $100 discount on the Apple Watch Ultra 3 was still a little more than you wanted to spend on a smartwatch, today’s deal might be for you. The brand new Apple Watch SE 3 is on sale for $200 right now, a savings of $50 and the fi…
-- 4. World Cup 2026 jerseys: Adidas unveils new high-tech kits for 22 nations ahead of next summer's tournament (CBS Sports) — Adidas unveiled 22 home jerseys on Wednesday, including designs for host nation Mexico and reigning world champions Argentina
+- 1. The BoM has finally tamed SSL (iTnews) — But what a price tag.
+- 2. Apple preparing its first ever low-cost laptop, rumour claims – and it could have something familiar inside (The-independent.com) — iPhone processor could sit at the heart of new, cheaper MacBook, rumours claim
+- 3. New ‘All-Climate Battery’ could keep EVs running in extreme heat and cold...The current battery tech loses power when cold and faces instability issues when hot. (Freerepublic.com) — Researchers at Penn State have proposed a novel design for a lithium-ion (Li) battery. It could address the long-standing performance and stability issues of standard Li batteries in extreme temperatures. The design, dubbed the All-Climate Battery (ACB), was …
+- 4. Mitsotakis meets with US Interior and Energy Ministers – Greece is a natural gateway for US LNG (Protothema.gr) — The Prime Minister referred to the crucial role of Greece in the utilization and development of the Vertical Corridor, as well as the infrastructure it has developed - The new US Ambassador Kimberly Guilfoyle was present at the meeting
+The post Mitsotakis mee…
+- 5. Genealogy Education Bytes - Week of 30 October to 5 November 2025 (Blogger.com) — 
+- 6. College Football National Championship Contenders, Pretenders (Theleadsm.com) — Week 10 is officially a wrap, and over half of the college football season is now complete. While nothing is set in stone, we now know what each team is made of. Many fans see their teams ranked in the top 10 as contenders, but three are head and shoulders ab…
 
 
 Emphasize topics: tech, world
@@ -27,43 +21,31 @@ Previous turns:
 [
   {
     "speaker": "Jamie",
-    "text": "Hey there, podcast pals! Jamie here ready to dive into some juicy headlines. Who's excited for some tech and world news today?"
+    "text": "Hey there, tech enthusiasts! Jamie here, ready to dive into the latest headlines with our sharp-witted co-host, Carol."
   },
   {
     "speaker": "Carol",
-    "text": "Hold your horses, Jamie. Let's kick things off with Millie Bobby Brown slamming the press. Seems like she's saying, 'Stranger Things have happened.'"
+    "text": "Let's cut to the chase, Jamie. First up, the BoM has tamed SSL, but at what cost? Sounds like a classic tech thriller plot to me."
   },
   {
     "speaker": "Jamie",
-    "text": "Carol with the zinger! But hey, can we blame Millie for being fed up? I mean, I respect journalism too, but let the girl live, right?"
-  },
-  {
-    "speaker": "Jamie",
-    "text": "Next up, Batman fans! Who's excited for some Dark Knight drama? Will Robert Pattinson's cape fit the next actor breaking silence on joining the DC Universe?"
+    "text": "Absolutely, Carol! It's like watching a high-stakes poker game with cybersecurity as the ante. And speaking of high stakes, Apple might be dealing its hand with a low-cost laptop powered by an iPhone processor!"
   },
   {
     "speaker": "Carol",
-    "text": "Hmm, interesting twist there. Could this new Batman be the hero we need, or will Gotham City need a reboot? Stay tuned, folks."
+    "text": "Intriguing move by Apple. But will it be a royal flush or a bust, Jamie? Only time will tell. Next on the table, this 'All-Climate Battery' could be a game-changer for EVs battling extreme temperatures."
   },
   {
     "speaker": "Jamie",
-    "text": "Now, let's talk tech deals! Apple fans, rejoice! The Apple Watch SE 3 is on sale for a steal at under $200. Time to grab yours and join the smartwatch squad!"
+    "text": "A battery that can handle both the scorching heat and icy cold? That's like the MVP of power solutions! And let's not forget Mitsotakis making moves with the US Interior and Energy Ministers. Greece's role as a natural gateway for US LNG is making waves!"
   },
   {
     "speaker": "Carol",
-    "text": "A smartwatch steal indeed, Jamie. But will this new watch be as life-changing as finding a lost iPhone in the couch cushions? The tech world wonders."
+    "text": "Looks like Greece is stepping into the spotlight, Jamie. And speaking of stepping up, let's not overlook the College Football National Championship Contenders and Pretenders. It's like a high-stakes game of Clue, but with football teams!"
   },
   {
     "speaker": "Jamie",
-    "text": "And speaking of world wonders, let's not forget the upcoming World Cup 2026 jerseys reveal. Adidas bringing the heat with high-tech kits! Which design will score big on the field?"
-  },
-  {
-    "speaker": "Carol",
-    "text": "Adidas sure knows how to kit it out for the big leagues. Can't wait to see the US team rocking their new threads in the next summer's tournament. Go team USA!"
-  },
-  {
-    "speaker": "Jamie",
-    "text": "That's all the time we have for today's headlines, folks. Thanks for tuning in to our tech and world news roundup. Catch you next time for more exciting updates! Stay curious."
+    "text": "Absolutely, Carol! It's crunch time in the college football world. Well, folks, that's a wrap for today's episode. Stay tuned for more tech and world updates next time. This is Jamie and Carol signing off!"
   }
 ]
 

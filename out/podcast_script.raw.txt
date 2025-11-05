@@ -1,50 +1,50 @@
 [
   {
     "speaker": "Jamie",
-    "text": "Welcome back to the podcast, folks! We've got a wild ride of headlines today, starting with 'The Nut Job 3' confirmed by Korea's RedRover."
+    "text": "Hey there, tech enthusiasts! Jamie here, ready to dive into the latest headlines with our sharp-witted co-host, Carol."
   },
   {
     "speaker": "Carol",
-    "text": "Wait, 'The Nut Job 3'? Sounds like a nutty sequel. Will this one crack us up or leave us shell-shocked?"
+    "text": "Let's cut to the chase, Jamie. First up, the BoM has tamed SSL, but at what cost? Sounds like a classic tech thriller plot to me."
   },
   {
     "speaker": "Jamie",
-    "text": "Haha, good one, Carol! Next up, let's dive into Shin Godzilla unleashed with Super7's newest Toho ULTIMATES!"
-  },
-  {
-    "speaker": "Jamie",
-    "text": "This Godzilla reimagining sounds like a real monster mash-up of horror and government failure. Who knew giant monsters had such political aspirations?"
+    "text": "Absolutely, Carol! It's like watching a high-stakes poker game with cybersecurity as the ante. And speaking of high stakes, Apple might be dealing its hand with a low-cost laptop powered by an iPhone processor!"
   },
   {
     "speaker": "Carol",
-    "text": "I bet Godzilla's got a pretty intense campaign platform. Maybe we should consider him for the next election. 'Godzilla for President!'"
+    "text": "Intriguing move by Apple. But will it be a royal flush or a bust, Jamie? Only time will tell. Next on the table, this 'All-Climate Battery' could be a game-changer for EVs battling extreme temperatures."
   },
   {
     "speaker": "Jamie",
-    "text": "Now that's a candidate who can really shake things up! Switching gears, ICE's newest illegal trucker crackdown is making headlines. Buckle up, folks!"
-  },
-  {
-    "speaker": "Jamie",
-    "text": "Seems like ICE's operation was a real roadblock for those illegal migrant truck drivers. Who knew the highway was such a hotspot for international drama?"
+    "text": "A battery that can handle both the scorching heat and icy cold? That's like the MVP of power solutions! And let's not forget Mitsotakis making moves with the US Interior and Energy Ministers. Greece's role as a natural gateway for US LNG is making waves!"
   },
   {
     "speaker": "Carol",
-    "text": "I can already see the script for 'Fast & Furious: Immigration Drift' in the making. Vin Diesel's got a new mission!"
+    "text": "Looks like Greece is stepping into the spotlight, Jamie. And speaking of stepping up, let's not overlook the College Football National Championship Contenders and Pretenders. It's like a high-stakes game of Clue, but with football teams!"
   },
   {
     "speaker": "Jamie",
-    "text": "A high-octane crossover we never knew we needed! And speaking of crossovers, how about that potential Paramount-WBD merger redefining the streaming wars?"
+    "text": "Absolutely, Carol! It's crunch time in the college football world. Well, folks, that's a wrap for today's episode. Stay tuned for more tech and world updates next time. This is Jamie and Carol signing off!"
+  },
+  {
+    "speaker": "Jamie",
+    "text": "Hey there, listeners! Jamie back in action, and I can't wait to roll the dice on these tech and world updates. So, what's next on our radar, Carol?"
   },
   {
     "speaker": "Carol",
-    "text": "Paramount and WBD joining forces? Sounds like a streaming showdown! Will HBO Max and Paramount+ team up or face off in the ultimate battle for our binge-watching attention?"
+    "text": "Let's zero in on this 'All-Climate Battery' buzz, Jamie. If it can handle extreme temps, I might consider warming up to the idea. But let's not forget about Mitsotakis and the US. Greece is like the cool kid at the energy table now."
   },
   {
     "speaker": "Jamie",
-    "text": "The stakes are high in the streaming arena! Last but not least, Google's Pixel Buds Pro 2 are down to $169. Black Friday deal alert, tech enthusiasts!"
+    "text": "You're right, Carol! Greece's energy game is heating up faster than a MacBook with an iPhone processor. And speaking of processors, Apple's low-cost laptop rumor has got us all guessing. Will it be a tech treasure or just a shiny distraction?"
+  },
+  {
+    "speaker": "Carol",
+    "text": "Apple mixing things up, Jamie? Sounds like they're shuffling the cards in the tech deck. But hey, let's not overlook the College Football showdown. It's like tech drama, but with touchdowns. Who's your MVP pick, Jamie?"
   },
   {
     "speaker": "Jamie",
-    "text": "Don't wait till Black Friday to snag those noise-canceling wireless earbuds! Get 'em now and tune into the world with crystal-clear sound. Until next time, stay curious and tech-savvy, folks! See you on the next episode."
+    "text": "Carol, it's tough to pick just one MVP in the football world, but in the tech arena, that 'All-Climate Battery' is definitely a strong contender. And with that, folks, we're wrapping up today's episode. Stay curious, stay tech-savvy, and we'll catch you next time! Jamie and Carol signing off!"
   }
 ]

@@ -34,3 +34,6 @@ Notes
 - Ensure `ffmpeg` is on PATH before running the app; pydub uses it to read/export audio.
 - `./out` contains the output news, podcast script, and intermediate prompts.
 - Keep API keys out of version control; use environment variables or a local `.env`.
+
+Intro/Outro Music (Creative Commons)
+https://transistor.nyc3.digitaloceanspaces.com/tracks/epic-metal.mp3

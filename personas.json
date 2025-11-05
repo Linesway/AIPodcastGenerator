@@ -3,8 +3,8 @@
     "profanity_filter": true,
     "volume_db": -5.0,
     "pause_ms": 1000,
-    "intro": "intro.mp3",
-    "outro": "outro.mp3",
+    "intro": "music/intro.mp3",
+    "outro": "music/outro.mp3",
     "music_volume_db": -6.0
   },
   "Jamie": {

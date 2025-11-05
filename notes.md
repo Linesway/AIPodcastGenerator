@@ -9,3 +9,5 @@ the desired turn length was reached.
 as if it were a real podcast. 
 - I prompt GPT to output the json formatting immediately for the turns. This makes processing much easier but maybe wastes a few `{} and :` tokens
 in the output for json formatting. Not a big deal because the prompting method is in multiple chunks.
+- The target duration is currently prompted by calculating an approximate number of short turns between the podcasters. It could be improved
+by including pauses or a true speaker wpm (not average wpm) in the calculation to get closer to the input target time. 
