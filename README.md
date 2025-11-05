@@ -33,7 +33,7 @@ Personas file (required format)
 
 # run the app (from repository root)
 ```powershell
-python main.py --topics "tech,world" --personas project\personas.json --output episode.mp3
+python main.py --topics "tech,world" --personas personas.json --output episode.mp3
 ```
 
 Notes

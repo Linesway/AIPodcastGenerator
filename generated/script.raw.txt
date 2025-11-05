@@ -1,16 +1,12 @@
 [
-    {"speaker": "Alex", "text": "Hey everyone, buckle up for a wild ride through today's headlines!"},
-    {"speaker": "Jamie", "text": "Florence and the Machine are hitting the road for a tour after dropping their new album."},
-    {"speaker": "Sam", "text": "Oh joy, more opportunities for people to sob their hearts out at concerts."},
-    {"speaker": "Jamie", "text": "Uzbekistan's tech unicorn Uzum eyes pre-IPO funding in Hong Kong."},
-    {"speaker": "Alex", "text": "Sounds like Uzum is ready to make some big moves in the global market!"},
-    {"speaker": "Sam", "text": "I bet they'll be the next big thing until the next big thing comes along."},
-    {"speaker": "Jamie", "text": "Virginia's next governor is former Democratic Rep. Abigail Spanberger."},
-    {"speaker": "Alex", "text": "Looks like Winsome Earle-Sears didn't quite seal the deal in Virginia."},
-    {"speaker": "Sam", "text": "Well, at least the sushi cars from Japan's Tomica line are still rolling in."},
-    {"speaker": "Jamie", "text": "Tomica is combining two cool things into one tiny package!"},
-    {"speaker": "Alex", "text": "And Arthur Hayes predicts more crypto action ahead with 'stealth' quantitative easing."},
-    {"speaker": "Sam", "text": "Ah, the joys of finance-speak. Can't wait for that stealthy crypto surge."},
-    {"speaker": "Alex", "text": "That's all we have for now, folks! Stay tuned for more news and laughs."},
-    {"speaker": "Sam", "text": "Or just grab some sushi cars and enjoy the ride. Until next time!"}
+    {"speaker": "Jamie", "text": "Welcome back, folks! Let's dive into some spicy headlines!"},
+    {"speaker": "Carol", "text": "First up, Paramount's blacklist for 'overtly antisemitic' stars. No more movie deals for Bardem or Phoenix!"},
+    {"speaker": "Jamie", "text": "Yikes, Hollywood drama at its finest! Next, Hero MotoCorp unveils 'Novus' electric micro car for urban adventures."},
+    {"speaker": "Carol", "text": "Sounds like a fun ride! Moving on to college football rankings, Georgia at #5, Oregon not looking too hot."},
+    {"speaker": "Jamie", "text": "Go Dawgs! In other news, boys jailed for romance under Pocso law in India. Tough love, huh?"},
+    {"speaker": "Carol", "text": "Seems harsh! Meanwhile, US economy winning from green policies. Go green or go home, right?"},
+    {"speaker": "Jamie", "text": "Absolutely! And let's wrap it up with two 'Foolish Mortals' getting the full Disney treatment at the Haunted Mansion!"},
+    {"speaker": "Carol", "text": "Disney magic strikes again! Thanks for tuning in, folks. Stay curious and we'll catch you next time!"},
+    {"speaker": "Jamie", "text": "Keep smiling, stay awesome! Until next time, this is Jamie and Carol signing off!"},
+    {"speaker": "Carol", "text": "Bye now!"}
 ]
