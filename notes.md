@@ -7,5 +7,5 @@ the desired turn length was reached.
 # Design Choices
 - I chose to include both individual and global volumes/pause in personas.json as well to allow you to modify both the speakers and studio
 as if it were a real podcast. 
-- I prompt GPT to give me the json formatting immediately for the turns, which makes processing much easier but maybe wastes afew `{} and :` tokens
-in the output. Not a big deal because the prompting method is in chunks.
+- I prompt GPT to output the json formatting immediately for the turns. This makes processing much easier but maybe wastes a few `{} and :` tokens
+in the output for json formatting. Not a big deal because the prompting method is in multiple chunks.
