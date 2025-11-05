@@ -1,0 +1,29 @@
+# Keep environment secrets out of git
+.env
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenvs
+venv/
+env/
+.venv/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Common audio output (optional)
+*.mp3
+*.wav
+
+# OS files
+.DS_Store
+Thumbs.db

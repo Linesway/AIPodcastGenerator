@@ -1,0 +1,10 @@
+{
+  "Jamie": {
+    "description": "Energetic, upbeat host — quick jokes, enthusiastic transitions, drives the conversation with high energy.",
+    "voice": "cartesia-voice-id-for-alex"
+  },
+  "Carol": {
+    "description": "Dry-witted co-host — concise, skeptical, asks sharp follow-ups and teases Alex with sardonic humor.",
+    "voice": "cartesia-voice-id-for-sam"
+  }
+}
