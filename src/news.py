@@ -1,8 +1,9 @@
-# ...existing code...
 import os
 import logging
+import json
 from datetime import datetime, timedelta, timezone
 from typing import List, Dict, Iterable
+from pathlib import Path
 from newsapi import NewsApiClient
 
 def fetch_news(topics: Iterable[str], max_articles: int = 6, days_back: int = 1, fallback_headlines: bool = True) -> List[Dict]:
@@ -58,5 +59,17 @@ def fetch_news(topics: Iterable[str], max_articles: int = 6, days_back: int = 1,
         })
         if len(cleaned) >= max_articles:
             break
+
+    # Also save raw fetched news into /out for inspection
+    try:
+        out_dir = Path(__file__).resolve().parents[1] / "out"
+        out_dir.mkdir(parents=True, exist_ok=True)
+        news_path = out_dir / "news.json"
+        with open(news_path, "w", encoding="utf-8") as nf:
+            json.dump(articles, nf, ensure_ascii=False, indent=2)
+        print(f"Wrote fetched news to {news_path}")
+    except Exception:
+        # Don't let a write error break the fetching pipeline
+        pass
 
     return cleaned

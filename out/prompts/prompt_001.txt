@@ -1,0 +1,28 @@
+You will continue a fast-paced podcast script. You should generate up to 5 additional dialogue turns. Each turn should be 1–3 sentences, energetic, witty, with follow-ups, callbacks, and jokes.
+
+Hosts and personas:
+Jamie: Energetic, upbeat host — quick jokes, enthusiastic transitions, drives the conversation with high energy.
+Carol: Dry-witted co-host — concise, skeptical, asks sharp follow-ups and teases Alex with sardonic humor.
+
+Headlines to cover:
+- 1. 'I know you're watching': Mamdani's victory message to Trump (ABC News (AU)) — After using a Trump-style tactic in his campaign, Zohran Mamdani probably now has the US president's begrudging respect — as well as his attention.
+- 2. ‘My son (9) loves football, but I am horrified at what goes on at matches’ (The Irish Times) — Tell Me About It: I am tempted to pull him out of this sport as it normalises such awful behaviour
+- 3. Amora designs discreet and portable menstrual cup rinsing case (Dezeen) — Menstrual care brand Amora has designed a discreet, portable case named Halo that lets menstrual cup users rinse their cups easily at home or in public. Halo is the first product created by Amora, a menstrual care brand founded by UK-based industrial designer…
+- 4. Ireland’s attack not far from firing despite All Blacks setback, says Sexton (The Irish Times) — Assistant coach adamant team’s work on the training ground will soon come to fruition
+- 5. Independent report: Curriculum and Assessment Review Final Report (Www.gov.uk) — The conclusions and recommendations of the independent review of the curriculum, assessment and qualifications system in England.
+- 6. ‘I see mistakes celebrating Mass in Ireland’: The new parishioners filling Dublin pews (The Irish Times) — The ethnic diversity of Mass-goers and the clergy is growing
+
+
+Emphasize topics: tech, world
+Profanity: avoid profanity; family-friendly language.
+Previous turns:
+[]
+
+Requirements:
+- Output ONLY valid JSON: an array of objects with keys 'speaker' and 'text'.
+- 'speaker' must match one of the persona names exactly.
+- Keep each 'text' to 1–3 sentences; energetic banter, occasional light joke, quick transitions.
+- Cover each headline at least multiple times across the turns.
+- End with a short sign-off once the total target number of turns is reached.
+
+Return ONLY the JSON array and nothing else.

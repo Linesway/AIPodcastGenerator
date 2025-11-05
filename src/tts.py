@@ -2,6 +2,8 @@ import os
 import logging
 from typing import List, Dict, Tuple
 from cartesia import AsyncCartesia
+import io
+from pydub import AudioSegment
 
 CARTESIA_API_KEY_ENV = "CARTESIA_API_KEY"
 CARTESIA_BASE = os.environ.get("CARTESIA_BASE", "https://api.cartesia.ai")  # override if needed
@@ -69,7 +71,19 @@ def synthesize_cartesia(text: str, voice_id: str, fmt: str = DEFAULT_FORMAT, tim
         raise
 
 
-def synthesize_turns(turns: List[Dict], voice_map: Dict[str, str], fmt: str = DEFAULT_FORMAT) -> List[Tuple[Dict, bytes]]:
+def synthesize_turns(turns: List[Dict], voice_map: Dict[str, str], fmt: str = DEFAULT_FORMAT,
+                     persona_volume: Dict[str, float] = None,
+                     persona_pause: Dict[str, int] = None,
+                     global_volume_db: float = 0.0,
+                     global_pause_ms: int = 120) -> List[Tuple[Dict, bytes]]:
+    """
+    Synthesize each turn to bytes and apply optional per-person or global
+    volume (dB) and trailing pause (ms). Returns list of (turn, audio_bytes).
+    If persona_volume or persona_pause is None, they are ignored.
+    """
+    persona_volume = persona_volume or {}
+    persona_pause = persona_pause or {}
+
     results: List[Tuple[Dict, bytes]] = []
     for t in turns:
         speaker = t.get("speaker")
@@ -78,12 +92,37 @@ def synthesize_turns(turns: List[Dict], voice_map: Dict[str, str], fmt: str = DE
             raise KeyError(f"No voice mapped for speaker: {speaker}")
         voice_id = voice_map[speaker]
         audio = synthesize_cartesia(text, voice_id, fmt)
-        results.append((t, audio))
+
+        # load into AudioSegment, apply volume and append pause, then re-export bytes
+        try:
+            seg = AudioSegment.from_file(io.BytesIO(audio), format=fmt)
+        except Exception:
+            # best-effort: if pydub fails, fall back to raw bytes unchanged
+            results.append((t, audio))
+            continue
+
+        # apply per-person override -> global fallback
+        vol = persona_volume.get(speaker, None)
+        if vol is None:
+            vol = global_volume_db
+        if isinstance(vol, (int, float)) and vol != 0.0:
+            seg = seg + float(vol)
+
+        pause_ms = persona_pause.get(speaker, None)
+        if pause_ms is None:
+            pause_ms = int(global_pause_ms or 0)
+        if isinstance(pause_ms, int) and pause_ms > 0:
+            seg = seg + AudioSegment.silent(duration=pause_ms)
+
+        out_buf = io.BytesIO()
+        seg.export(out_buf, format=fmt)
+        out_bytes = out_buf.getvalue()
+        results.append((t, out_bytes))
     return results
 
 
 def save_audio_bytes(path: str, audio_bytes: bytes) -> None:
     """Write audio bytes to disk."""
     with open(path, "wb") as f:
-        f.write(audio_bytes)        
         f.write(audio_bytes)
+        print(f"Wrote audio to {path}")
