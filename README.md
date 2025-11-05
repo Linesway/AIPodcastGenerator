@@ -20,6 +20,7 @@ CARTESIA_API_KEY=
 
 2. Modify the personas file to adjust voices, personalities, filters, names, etc.
 - `./personas.json` must be an object mapping persona name -> object with `description` and `voice` keys.
+- Intro/Outro music is optional and can be defined in `personas.json`
 
 # Running the app (from repository root)
 
@@ -35,5 +36,5 @@ python main.py --personas personas.json --topics "tech,world" --regions "US" --m
 
 Notes
 - Ensure `ffmpeg` is on PATH before running the app; pydub uses it to read/export audio.
-- Keep API keys out of version control; use environment variables or a local `.env`.
 - `./out` contains the output news, podcast script, and intermediate prompts.
+- Keep API keys out of version control; use environment variables or a local `.env`.
