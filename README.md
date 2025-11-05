@@ -47,4 +47,4 @@ Notes
 - Keep API keys out of version control; use environment variables or a local `.env`.
 
 Intro/Outro Music (Creative Commons)
-https://transistor.nyc3.digitaloceanspaces.com/tracks/epic-metal.mp3
+https://transistor.fm/free-podcast-intro-music/
