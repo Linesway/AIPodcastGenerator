@@ -13,10 +13,6 @@ Install ffmpeg if not installed already:
 winget install --id=Gyan.FFmpeg -e
 
 1. Ensure a .env file exists in the main folder. /.env.example can be used as a reference. 
-# .env example
-NEWSAPI_KEY= 
-OPENAI_API_KEY=
-CARTESIA_API_KEY=
 
 2. Modify the personas file to adjust voices, personalities, filters, names, etc.
 - `./personas.json` must be an object mapping persona name -> object with `description` and `voice` keys.
